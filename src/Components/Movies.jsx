@@ -3,7 +3,8 @@ import React from 'react'
 import VideoCard from './VideoCard'
 
 function Movies({videos}) {
-
+  
+  
   return (
     <Stack
       direction="row" 

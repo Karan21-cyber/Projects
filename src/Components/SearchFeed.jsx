@@ -15,7 +15,7 @@ function SearchFeed() {
     .then((item) => setVideos(item.data))
 
   },[searchTerm]);
-  console.log(videos);
+  
   return (
     <Box
       p={2}

@@ -157,11 +157,30 @@ hr{
     width: 100% !important;
 }
 
+.user-input{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-block: 10px;
+    padding-left: 15px;
+    box-shadow: none !important;
+    font-size: 15px;
+    color: rgb(109, 216, 235);
+    background-color: rgb(58, 55, 55);  
+}
 
-
-
-
-
+.signin-box{
+    width:450px;
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+    margin-block: 100px;
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-inline:35%;
+}
 
 
 
@@ -183,6 +202,9 @@ hr{
     }
     .info-text{
         padding-inline: 150px;
+     }
+     .signin-box{
+        margin-inline: 25%;
      }
 }
 @media screen and (max-width:1000px) {
@@ -208,6 +230,10 @@ hr{
         width: 75%;
         padding-inline: 50px;
     }
+    .signin-box{
+        width:400px;
+        margin-inline: 22%;
+     }
     
 }
 
@@ -244,6 +270,10 @@ hr{
         display: flex;
         flex-wrap: wrap;
     }
+    .signin-box{
+        width:350px;
+        margin-inline: 12%;
+     }
 }
 
 @media screen and (max-width:520px) {
@@ -268,6 +298,11 @@ hr{
         width: 75%;
         padding-inline: 20px;
     }
+    .signin-box{
+        width:300px;
+        margin-inline: 8%;
+        margin-block: 50px;
+     }
 }
 @media screen and (max-width:460px) {
     .search-bar{
@@ -280,6 +315,10 @@ hr{
         display: flex;
         flex-wrap: wrap;
     }
+    .signin-box{
+        width:280px;
+        margin-inline: 5%;
+     }
 }
 @media screen and (max-width:380px){
 

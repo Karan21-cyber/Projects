@@ -39,7 +39,7 @@ function Home() {
             <input type="text" placeholder='Enter your email' />
            
            
-          <Link to="/feed" style={{textDecoration: 'none'}}><Button variant='contained' sx={{backgroundColor:"red"}}>GetStarted</Button> </Link>
+          <Link to="/signIn" style={{textDecoration: 'none'}}><Button variant='contained' sx={{backgroundColor:"red"}}>GetStarted</Button> </Link>
           
           </div>
          
